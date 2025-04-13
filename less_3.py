@@ -132,14 +132,14 @@ print(byd_car)
 print(chevrolet_car)
 chevrolet_car.drive()
 print(HybridCar.mro())
-numb_1 = 2
-numb_2 = 5
+# numb_1 = 2
+# numb_2 = 5
 
 print(f"Toyota car is cheaper than Chevrolet car: {toyota_car < chevrolet_car}")
 print(f"Toyota car is more expensive than Chevrolet car: {toyota_car > chevrolet_car}")
 print(f"Toyota car is the same with Chevrolet car: {toyota_car == chevrolet_car}")
 
-print(f"Sum of numbers: {numb_1 + numb_2}")
+# print(f"Sum of numbers: {numb_1 + numb_2}")
 print(f"Sum of fuel banks: {chevrolet_car + toyota_car}")
 # FuelCar.total_fuel -= 100
 # print(f"Factory FUEL_CAR has {FuelCar.__total_fuel} litters of fuel.")
